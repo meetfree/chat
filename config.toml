@@ -1,0 +1,24 @@
+listen = ":7788"
+dict = "http://127.0.0.1/keyword.txt"
+nat = "nats://192.168.0.43:4222"
+# Redis数据库配置
+[redis]
+    [redis.release]
+#    addr = "192.168.0.43:6379"
+    addr = "192.168.0.43:6379"
+    password = ""
+    db = 0
+    [redis.debug]
+    addr = "192.168.0.43:6379"
+    password = ""
+    db = 0
+
+# mongodb数据库配置
+[mongo]
+    [mongo.release]
+#    addr = "mongodb://192.168.0.43:27017"
+    addr = "mongodb://192.168.0.43:27017"
+    database = "s8game"
+    [mongo.debug]
+    addr = "mongodb://192.168.0.43:27017"
+    database = "s8game"
