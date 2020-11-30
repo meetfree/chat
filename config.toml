@@ -18,7 +18,7 @@ nat = "nats://192.168.0.43:4222"
     [mongo.release]
 #    addr = "mongodb://192.168.0.43:27017"
     addr = "mongodb://192.168.0.43:27017"
-    database = "s8game"
+    database = "name"
     [mongo.debug]
     addr = "mongodb://192.168.0.43:27017"
-    database = "s8game"
+    database = "name"
